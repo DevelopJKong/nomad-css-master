@@ -1,0 +1,56 @@
+
+.grid{
+ 
+    display:grid;
+    gap:5px;
+    height:50vh; 
+    grid-template-columns: repeat(auto-fit,minmax(20px,max-content));
+    grid-auto-rows:100px;
+    margin-bottom:30px;
+   
+
+}
+
+
+
+.item:nth-child(odd){
+    background-color: #2ecc71;
+}
+
+.item:nth-child(even){
+    background-color: #3498db;
+}
+
+
+
+
+
+
+
+/* 
+.header{
+ background:#55efc4;
+ grid-column: 1/ -1;
+}
+
+.content{
+ background:#81ecec;
+ grid-column: first-line / fifth-line;
+ grid-row: 2 / 4;
+ 
+
+}
+
+.nav{
+ background:#74b9ff;
+ grid-row:2/4;
+ 
+
+}
+
+.footer{
+ background:#a29bfe;
+ grid-column: 1 / -1
+ 
+
+} */
